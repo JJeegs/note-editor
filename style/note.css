@@ -1,0 +1,41 @@
+section.note{
+    /* background-color: var(--background-color); */
+    border-radius: 1rem;
+    /* box-shadow: 0 0 1rem var(--low-opacity-color); */
+    padding: 2rem;
+    width: 25rem;
+    height: fit-content;
+}
+.note .note-title-container{
+    display: flex;
+    width: 21rem;
+    position: relative;
+}
+.note h1 {
+    font-size: 1.7rem;
+}
+.note hr{
+    width: 21rem;
+    margin: .8rem 0;
+}
+.note-pin{
+    position: absolute;
+    right: 0;
+}
+.note-pin .ion-icon, .note .a-icon{
+    display: inline-block;
+    width: 2rem;
+    height:2rem;
+    transform: rotateZ(20deg);
+}
+.note-tag{
+    background-color: var(--low-opacity-color);
+    margin: .2rem .2rem;
+    padding: .4rem .8rem;
+    border-radius: 5rem;
+    display: inline-block;
+}
+.note-content{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+}

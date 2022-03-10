@@ -1,0 +1,13 @@
+:root{
+    --primary-color: #19191b;
+    --secundary-color: #29292c;
+    --background-color: #0d0d0f;
+    --low-opacity-color: #fff3;
+    --text-color: #fff;
+}
+*{
+    color: var(--text-color);
+}
+section.note{
+    background-color: var(--primary-color);
+}

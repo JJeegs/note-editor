@@ -1,0 +1,31 @@
+.side-bar{
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.option .a-icon{
+    height: 6.6rem;
+    padding: 1.5rem;
+    display: flex;
+}
+.option .ion-icon{
+    width: 3rem;
+    height:3rem;
+}
+.option .a-icon .ion-icon{
+    margin: auto 0;
+    display: inline-block;
+    width: 3rem;
+    height:3rem;
+}
+.option>a>p{
+    margin-block: auto;
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: var(--low-opacity-color);
+}
+.option.active{
+    background-color: var(--low-opacity-color);
+}

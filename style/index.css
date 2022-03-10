@@ -1,0 +1,43 @@
+.max-container{
+    display: grid;
+    grid-template-columns: 24rem 1fr;
+    grid-template-rows: 6.4rem 1fr;
+    height: 100vh;
+}
+.nav-bar{
+    grid-area: 1 / 1 / 2 / 6;
+}
+/* main{
+    padding: 1.2rem;
+    overflow-x: scroll;
+    column-count: 4;
+    break-inside: avoid;
+    page-break-inside: avoid;
+} */
+main{
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25rem);
+    grid-auto-rows: minmax(min-content, max-content);
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1.2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    grid-auto-flow: dense;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--low-opacity-color);
+}
+::-webkit-scrollbar-button {
+    height: 0px;
+    width: 0px;
+}
+::-webkit-scrollbar {
+    height: 12px;
+    overflow:visible;
+    width: 12px;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
