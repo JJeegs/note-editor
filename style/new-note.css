@@ -9,6 +9,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
+    visibility: hidden;
 }
 .new-note-container{
     display: grid;
@@ -16,4 +17,20 @@
     height: 100%;
     width: 100%;
     background-color: var(--primary-color);
+    padding: 52px;
+}
+.overlay input{
+    background-color: transparent;
+    border: none;
+}
+.overlay input:focus{
+    border: 0 0 transparent;
+}
+input.title{
+    font-size: 3.2rem;
+}
+input.content{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    width: 100%;
 }
